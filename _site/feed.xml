@@ -3,8 +3,8 @@
 	<channel>
 		<title></title>
 		<description>A small and simple site out Jekyll.</description>		
-		<link>http://CapriconCoder.github.io</link>
-		<atom:link href="http://CapriconCoder.github.io/feed.xml" rel="self" type="application/rss+xml" />
+		<link>http://capriconCoder.github.io</link>
+		<atom:link href="http://capriconCoder.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>MVC - Model View Controller</title>
@@ -28,7 +28,7 @@
   &lt;li&gt;A &lt;strong&gt;controller&lt;/strong&gt; offers facilities to handle end user interaction, manipulating the model, and ultimately choosing a view to render to display UI.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://CapriconCoder.github.io/assets/mvc_pattern_figure.png&quot; alt=&quot;mvc&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://capriconCoder.github.io/assets/mvc_pattern_figure.png&quot; alt=&quot;mvc&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;benefits&quot;&gt;Benefits&lt;/h2&gt;
 
@@ -43,7 +43,7 @@
 
 &lt;!-- ![a](https://i-msdn.sec.s-msft.com/dynimg/IC114765.gif) --&gt;
 
-&lt;h2 id=&quot;cons&quot;&gt;Cons&lt;/h2&gt;
+&lt;h2 id=&quot;downside&quot;&gt;Downside&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Not right for extra small application&lt;/li&gt;
@@ -51,10 +51,21 @@
   &lt;li&gt;Isolated development process by UI authors, business logic author and cobtroller author may lead to delay in respective modules.&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h2 id=&quot;variation&quot;&gt;Variation&lt;/h2&gt;
+
+&lt;p&gt;The MVC pattern has subsequently evolved, giving rise to variants such as:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Model–View–Adapter (MVA)&lt;/li&gt;
+  &lt;li&gt;Model–View–Presenter (MVP)&lt;/li&gt;
+  &lt;li&gt;Model–View–ViewModel (MVVM)&lt;/li&gt;
+  &lt;li&gt;And many others that adapted MVC to different contexts.&lt;/li&gt;
+&lt;/ul&gt;
+
 </description>
-				<pubDate>Mon, 15 Aug 2016 23:10:41 +0530</pubDate>
-				<link>http://CapriconCoder.github.io/post/mvc-post/</link>
-				<guid isPermaLink="true">http://CapriconCoder.github.io/post/mvc-post/</guid>
+				<pubDate>Tue, 16 Aug 2016 14:45:00 +0530</pubDate>
+				<link>http://capriconCoder.github.io/post/mvc-post/</link>
+				<guid isPermaLink="true">http://capriconCoder.github.io/post/mvc-post/</guid>
 			</item>
 		
 			<item>
@@ -79,8 +90,8 @@ To add new posts, simply add a file in the &lt;code class=&quot;highlighter-roug
 
 </description>
 				<pubDate>Sat, 19 Mar 2016 23:10:41 +0530</pubDate>
-				<link>http://CapriconCoder.github.io/post/jek/</link>
-				<guid isPermaLink="true">http://CapriconCoder.github.io/post/jek/</guid>
+				<link>http://capriconCoder.github.io/post/jek/</link>
+				<guid isPermaLink="true">http://capriconCoder.github.io/post/jek/</guid>
 			</item>
 		
 			<item>
@@ -135,8 +146,8 @@ To add new posts, simply add a file in the &lt;code class=&quot;highlighter-roug
 &lt;p&gt;Sed imperdiet interdum ultrices. Phasellus iaculis porttitor lorem nec scelerisque. Suspendisse eros urna, adipiscing vel luctus at, feugiat sit amet arcu. Aliquam porttitor ut urna pellentesque sagittis. Donec pellentesque venenatis diam sit amet cursus. Etiam luctus, metus quis gravida fermentum, tortor arcu consequat metus, eget viverra augue risus ac dui. Fusce faucibus scelerisque quam eu sagittis. Sed sit amet sapien non augue lobortis adipiscing. Sed sagittis at lectus eu tempus. Nulla non nulla ut ante condimentum mattis vel at lectus. Nulla ultricies dui et urna semper ultrices. Sed neque ante, dictum in dignissim luctus, facilisis ornare odio. Aenean tempor ultrices magna non pharetra. Curabitur vulputate nec est aliquet suscipit. Etiam ipsum sapien, dictum quis tristique vel, pretium at elit.&lt;/p&gt;
 </description>
 				<pubDate>Fri, 01 Jan 2016 00:00:00 +0530</pubDate>
-				<link>http://CapriconCoder.github.io/post/tes/</link>
-				<guid isPermaLink="true">http://CapriconCoder.github.io/post/tes/</guid>
+				<link>http://capriconCoder.github.io/post/tes/</link>
+				<guid isPermaLink="true">http://capriconCoder.github.io/post/tes/</guid>
 			</item>
 		
 	</channel>
