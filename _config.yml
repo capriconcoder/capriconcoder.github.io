@@ -3,8 +3,8 @@ title: CapriconCoder
 description: A small and simple site out Jekyll.
 baseurl: "" # the subpath of your site, e.g. /blog
 
-url: "http://CapriconCoder.github.io"
-github: http://github.com/CapriconCoder
+url: "http://capriconCoder.github.io"
+github: http://github.com/capriconcoder
 highlighter: rouge
 markdown: kramdown
 permalink: /post/:title/

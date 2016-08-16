@@ -28,7 +28,7 @@
   &lt;li&gt;A &lt;strong&gt;controller&lt;/strong&gt; offers facilities to handle end user interaction, manipulating the model, and ultimately choosing a view to render to display UI.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;TODO: Insert Image : Workflow&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://CapriconCoder.github.io/assets/mvc_pattern_figure.png&quot; alt=&quot;mvc&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;benefits&quot;&gt;Benefits&lt;/h2&gt;
 
