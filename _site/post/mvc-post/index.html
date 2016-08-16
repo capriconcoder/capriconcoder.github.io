@@ -1,0 +1,100 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="icon" type="image/icon" href="/favicon.ico">
+
+<title>MVC - Model View Controller</title>
+
+<link rel="stylesheet" href="/css/syntax.css">
+<link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+
+
+<header>
+<div id="nav_container">
+<nav>
+
+  <ul>
+  <h1><a href="">CapriconCoder</a></h1>
+    
+      
+      
+
+      <li class="">
+        <a class="" href="/">#</a>
+      </li>
+    
+      
+      
+
+      <li class="">
+        <a class="" href="/about/">About</a>
+      </li>
+    
+  </ul>
+
+</nav>
+</div>
+</header>
+
+<section id="main">
+	<article>
+<div class="heading">MVC - Model View Controller</div>
+<p class="meta"><a class="permalink" href="">&#9679;</a> 15 Aug 2016</p>
+<p>Model-View-Controller is the concept introduced by Smalltalk’s inventors (TrygveReenskaug and others) of encapsulating some data together with its processing (the model) and isolate it from the manipulation (the controller) and presentation (the view) part that has to be done on a UserInterface.</p>
+
+<blockquote>
+  <p>‘An easy way to understand MVC: the model is the data, the view is the window on the screen, and the controller is the glue between the two.” – ConnellyBarnes</p>
+</blockquote>
+
+<blockquote>
+  <p>The best rubric ever: “We need SMART Models, THIN Controllers, and DUMB Views”</p>
+</blockquote>
+
+<h2 id="concept">Concept</h2>
+
+<p>MVC pattern separates the modelling of the domain, the presentation, and the actions based on user input into three separate classes</p>
+
+<ul>
+  <li>A <strong>model</strong> is an object representing data or even activity, e.g. a database table or even some plant-floor production-machine process.</li>
+  <li>A <strong>view</strong> is some form of visualisation of the state of the model.</li>
+  <li>A <strong>controller</strong> offers facilities to handle end user interaction, manipulating the model, and ultimately choosing a view to render to display UI.</li>
+</ul>
+
+<p>TODO: Insert Image : Workflow</p>
+
+<h2 id="benefits">Benefits</h2>
+
+<ul>
+  <li>Better support for <strong>*test-driven development (TDD)</strong>.</li>
+  <li>Enforce a clean separation of concerns between the models, views and controllers within an application</li>
+  <li>Full Control over <strong>HTML that is rendered on the browser</strong> and you can afford the development time and overhead to do all of your own markup.</li>
+  <li>Full control over how your <strong>URLs</strong> are formed.</li>
+  <li>Makes it easier to <strong>manage complexity</strong> by dividing an application into the model, the view, and the controller.</li>
+  <li>It works well for Web applications that are supported by <strong>large teams</strong> of developers and for Web designers who need a high degree of control over the application behavior.</li>
+</ul>
+
+<!-- ![a](https://i-msdn.sec.s-msft.com/dynimg/IC114765.gif) -->
+
+<h2 id="cons">Cons</h2>
+
+<ul>
+  <li>Not right for extra small application</li>
+  <li>High complexity for developer who are not aware of the pattern.</li>
+  <li>Isolated development process by UI authors, business logic author and cobtroller author may lead to delay in respective modules.</li>
+</ul>
+
+
+
+
+	
+    	<span class="label label-default"><a href="/tags#patterns-ref" title="View posts tagged with &quot;patterns&quot;">patterns</a></span>
+    
+
+</article>
+</section>
+
+</body>
+</html>

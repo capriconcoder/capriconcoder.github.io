@@ -7,6 +7,57 @@
 		<atom:link href="http://CapriconCoder.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>MVC - Model View Controller</title>
+				<description>&lt;p&gt;Model-View-Controller is the concept introduced by Smalltalk’s inventors (TrygveReenskaug and others) of encapsulating some data together with its processing (the model) and isolate it from the manipulation (the controller) and presentation (the view) part that has to be done on a UserInterface.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;‘An easy way to understand MVC: the model is the data, the view is the window on the screen, and the controller is the glue between the two.” – ConnellyBarnes&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The best rubric ever: “We need SMART Models, THIN Controllers, and DUMB Views”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;concept&quot;&gt;Concept&lt;/h2&gt;
+
+&lt;p&gt;MVC pattern separates the modelling of the domain, the presentation, and the actions based on user input into three separate classes&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A &lt;strong&gt;model&lt;/strong&gt; is an object representing data or even activity, e.g. a database table or even some plant-floor production-machine process.&lt;/li&gt;
+  &lt;li&gt;A &lt;strong&gt;view&lt;/strong&gt; is some form of visualisation of the state of the model.&lt;/li&gt;
+  &lt;li&gt;A &lt;strong&gt;controller&lt;/strong&gt; offers facilities to handle end user interaction, manipulating the model, and ultimately choosing a view to render to display UI.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;TODO: Insert Image : Workflow&lt;/p&gt;
+
+&lt;h2 id=&quot;benefits&quot;&gt;Benefits&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Better support for &lt;strong&gt;*test-driven development (TDD)&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Enforce a clean separation of concerns between the models, views and controllers within an application&lt;/li&gt;
+  &lt;li&gt;Full Control over &lt;strong&gt;HTML that is rendered on the browser&lt;/strong&gt; and you can afford the development time and overhead to do all of your own markup.&lt;/li&gt;
+  &lt;li&gt;Full control over how your &lt;strong&gt;URLs&lt;/strong&gt; are formed.&lt;/li&gt;
+  &lt;li&gt;Makes it easier to &lt;strong&gt;manage complexity&lt;/strong&gt; by dividing an application into the model, the view, and the controller.&lt;/li&gt;
+  &lt;li&gt;It works well for Web applications that are supported by &lt;strong&gt;large teams&lt;/strong&gt; of developers and for Web designers who need a high degree of control over the application behavior.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- ![a](https://i-msdn.sec.s-msft.com/dynimg/IC114765.gif) --&gt;
+
+&lt;h2 id=&quot;cons&quot;&gt;Cons&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Not right for extra small application&lt;/li&gt;
+  &lt;li&gt;High complexity for developer who are not aware of the pattern.&lt;/li&gt;
+  &lt;li&gt;Isolated development process by UI authors, business logic author and cobtroller author may lead to delay in respective modules.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+				<pubDate>Mon, 15 Aug 2016 23:10:41 +0530</pubDate>
+				<link>http://CapriconCoder.github.io/post/mvc-post/</link>
+				<guid isPermaLink="true">http://CapriconCoder.github.io/post/mvc-post/</guid>
+			</item>
+		
+			<item>
 				<title>Welcome to Jekyll!</title>
 				<description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code class=&quot;highlighter-rouge&quot;&gt;-w&lt;/code&gt; switch) to see your changes!
 To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
