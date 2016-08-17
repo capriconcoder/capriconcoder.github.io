@@ -3,10 +3,11 @@ title: CapriconCoder
 description: A small and simple site out Jekyll.
 baseurl: "" # the subpath of your site, e.g. /blog
 
-url: "http://capriconCoder.github.io"
+url: ""
 github: http://github.com/capriconcoder
 highlighter: rouge
 markdown: kramdown
+
 permalink: /post/:title/
 paginate: 4
 gems: [jekyll-paginate]
@@ -21,3 +22,20 @@ navigation:
 #   url: /archives/
 # - text: Tags
 #   url: /tags/
+
+# Markdown Processors
+rdiscount:
+  extensions: []
+
+redcarpet:
+  extensions: []
+
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  input:          GFM
+  hard_wrap:      false
+  footnote_nr:    1
