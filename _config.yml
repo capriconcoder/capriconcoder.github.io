@@ -1,7 +1,7 @@
 # Jekyll Defaults
 title: CapriconCoder
 description: A small and simple site out Jekyll.
-baseurl: "" # the subpath of your site, e.g. /blog
+# baseurl: "" # the subpath of your site, e.g. /blog
 
 url: ""
 github: http://github.com/capriconcoder
@@ -31,11 +31,6 @@ redcarpet:
   extensions: []
 
 kramdown:
-  auto_ids:       true
-  footnote_nr:    1
-  entity_output:  as_char
-  toc_levels:     1..6
-  smart_quotes:   lsquo,rsquo,ldquo,rdquo
-  input:          GFM
-  hard_wrap:      false
-  footnote_nr:    1
+  input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
+  hard_wrap: false
+highlighter: rouge
